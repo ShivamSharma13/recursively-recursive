@@ -1,5 +1,9 @@
 #/usr/bin/env python3
 
+'''
+Implement binary search using recursion.
+'''
+
 def recursive_binary_search(numbers, search_number, start, stop, mid):
 	print("start: {}, stop: {}, mid: {}".format(start, stop, mid))
 	if search_number == numbers[mid]:

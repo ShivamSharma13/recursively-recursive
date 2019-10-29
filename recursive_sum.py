@@ -1,5 +1,9 @@
 #/usr/bin/env python3
 
+'''
+Given an array compute sum of numbers recursively.
+'''
+
 def compute_sum_recursively(numbers, summ):
 	if len(numbers) == 0:
 		return summ
